@@ -1,0 +1,16 @@
+/* Master Styles */
+/* 全局的样式定义。注意每个组件使用的样式不是在这里面。 */
+h1 {
+  color: #369; 
+  font-size: 250%;
+}
+h2, h3 { 
+  color: #444;
+  font-weight: lighter;
+}
+body { 
+  margin: 2em; 
+}
+body, input[text], button { 
+  color: #888; 
+}
