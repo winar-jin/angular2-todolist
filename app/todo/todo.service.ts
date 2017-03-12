@@ -10,6 +10,7 @@ export class TodoService{
 
     // 添加一个Todo
     addTodo(todo: Todo): TodoService{
+        // 默认情况下todo是没有Id的，先给此todo添加ID
         if(!todo.id){
             todo.id = ++this.lastId;
         }
